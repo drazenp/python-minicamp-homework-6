@@ -8,6 +8,10 @@ header {
 	background-color: red;
 }
 
+header:hover {
+	background-color: purple;
+}
+
 #manue {
 	height:20px;
 	margin-left: 40px;
@@ -15,7 +19,11 @@ header {
 	background-color: black;
 }
 
-#main {
+#manue:hover {
+	background-color: white;
+}
+
+#main  {
 	margin: 0 auto;
 	width: 600px;
 	height: 1000px;
@@ -36,6 +44,10 @@ header {
 	height: 80px;
 	background-color: yellow;
 	margin-left: 10px;
+}
+
+.square:hover {
+	background-color: orange;
 }
 
 footer {
